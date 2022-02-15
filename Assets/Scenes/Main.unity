@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 0, y: 0, z: 0}
+  m_Thrust: 50
 --- !u!1 &1359578655
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +292,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -465,7 +466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4714817338967563813, guid: 420cbc0b9dc81284091779ede41c9bae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 4714817338967563813, guid: 420cbc0b9dc81284091779ede41c9bae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -507,5 +508,9 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6f7d69b5550ee334d8aaee46b8535ee8, type: 2}
+    - target: {fileID: 5132587741838784726, guid: 420cbc0b9dc81284091779ede41c9bae, type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 420cbc0b9dc81284091779ede41c9bae, type: 3}
